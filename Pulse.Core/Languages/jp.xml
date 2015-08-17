@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Data>
+
+  <Measurement
+    Elapsed="経過"
+    Remaining="残りの"
+    SecondAbbr="秒"
+    ByteAbbr="B"
+    KByteAbbr="KB"
+    MByteAbbr="MB"
+    GByteAbbr="GB"
+    TByteAbbr="TB"
+    PByteAbbr="PB"
+    EByteAbbr="EB"
+    />
+  
+  <Button
+    OK = "OK"
+    Cancel = "キャンセル"
+    />
+
+  <InfoProvider>
+    
+    <ApplicationConfig
+      Title = "設定"
+      Description = "アプリケーションのさまざまな設定。"
+      NewTitle = "新しい"
+      NewDescription = "すべての設定のデフォルト値を初期化します。"
+      FileTitle = "ファイルから"
+      FileDescription = "アプリケーションの設定ファイルを読み込む {0}"
+    />
+
+    <GameLocation
+      Title = "ゲーム・ディレクトリ"
+      Description = "ゲームのファイルの場所。"
+      ConfigurationTitle = "設定"
+      ConfigurationDescription = "構成ファイルに格納された情報を使用しています。"
+      SteamRegistryTitle = "レジストリ (Steam)"
+      SteamRegistryDescription = "ウィンドウズのレジストリからの情報を検索し、steamからのデータを使用して"
+      UserTitle = "マニュアル"
+      UserDescription = "ディレクトリを手動でインストールしたゲームを選択できます。"
+    />
+
+    <WorkingLocation
+      Title = "作業ディレクトリ"
+      Description = "アプリケーションの結果を格納するディレクトリ。"
+      ConfigurationTitle = "設定"
+      ConfigurationDescription = "構成ファイルに格納された情報を使用しています。."
+      UserTitle = "マニュアル"
+      UserDescription = "手動での作業ディレクトリを選択できます"
+    />
+
+    <TextEncoding
+      Title = "符号化"
+      Description = "アンパッキングとゲームのテキストのパッキングのための符号化。"
+      NewTitle = "新しい"
+      NewDescription = "標準符号化はwindows-1252の符号化に基づくを初期化します。"
+      WorkingLocationTitle = "作業ディレクトリ"
+      WorkingLocationDescription = "作業ディレクトリからのコードを読み取る。"
+      UserTitle = "編集"
+      UserDescription = "現在のエンコーディングを変更します。."
+    />
+
+    <AudioSettings
+      Title="オーディオ設定"
+      Description="オーディオデバイスの設定。"
+      NewTitle="新しい"
+      NewDescription="すべての設定のデフォルト値を初期化する"
+    />
+    
+  </InfoProvider>
+
+  <Dockable>
+
+    <DataSources Header = "データソース" />
+
+    <GameFileCommander
+      Header = "ゲーム資源"
+      Unpack = "アンパック"
+      Pack = "パック"
+      ArchivesNode ="アーカイブ"
+      />
+
+    <GameFilePreview
+      Header="プレビュー"
+      />
+    
+  </Dockable>
+
+</Data>
