@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Data>
+
+  <Measurement
+    Elapsed="过去了"
+    Remaining="剩下"
+    SecondAbbr="秒"
+    ByteAbbr="B"
+    KByteAbbr="KB"
+    MByteAbbr="MB"
+    GByteAbbr="GB"
+    TByteAbbr="TB"
+    PByteAbbr="PB"
+    EByteAbbr="EB"
+    />
+  
+  <Button
+    OK = "确定"
+    Cancel = "取消"
+    />
+
+  <InfoProvider>
+    
+    <ApplicationConfig
+      Title = "设置"
+      Description = "各种应用程序的设置"
+      NewTitle = "新的"
+      NewDescription = "初始化所有设置的默认值。"
+      FileTitle = "从文件"
+      FileDescription = "从文件读取应用程序配置{0}"
+    />
+
+    <GameLocation
+      Title = "游戏目录"
+      Description = "游戏文件设置"
+      ConfigurationTitle = "设置"
+      ConfigurationDescription = "使用储存在配置文件中的信息。"
+      SteamRegistryTitle = "从注册表 (Steam)"
+      SteamRegistryDescription = "从windows注册表中检索数据，使用steam数据。"
+      UserTitle = "手动选择"
+      UserDescription = "允许您手动选择您已经安装了游戏的目录。"
+    />
+
+    <WorkingLocation
+      Title = "工作目录"
+      Description = "该目录储存应用程序的结果"
+      ConfigurationTitle = "设置"
+      ConfigurationDescription = "使用储存在配置文件中的信息"
+      UserTitle = "手动选择"
+      UserDescription = "允许您手动选择工作目录。"
+    />
+
+    <TextEncoding
+      Title = "编码"
+      Description = "解包与封包游戏文本编码。"
+      NewTitle = "新的"
+      NewDescription = "初始化基于windows-1252编码标准。"
+      WorkingLocationTitle = "工作目录"
+      WorkingLocationDescription = "从工作目录中读取编码。"
+      UserTitle = "编辑"
+      UserDescription = "改变当前编码。"
+    />
+
+    <AudioSettings
+      Title="声音设置"
+      Description="设置声音驱动"
+      NewTitle="新的"
+      NewDescription="初始化所有设置默认值。"
+    />
+    
+  </InfoProvider>
+
+  <Dockable>
+
+    <DataSources Header = "数据源" />
+
+    <GameFileCommander
+      Header = "游戏资源"
+      Unpack = "解压缩"
+      Pack = "压缩"
+      ArchivesNode ="档案"
+      />
+
+    <GameFilePreview
+      Header="预览"
+      />
+    
+  </Dockable>
+
+</Data>
